@@ -1,0 +1,37 @@
+.list-items {
+  list-style-type: none;
+  height: 250px;
+  width: 300px;
+  background-color: #ffffff;
+  box-shadow: 1px 1px 10px 10px #e2e8f0;
+  margin-bottom: 30px;
+  margin-right: 70px;
+  margin-top: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.name {
+  font-size: 15px;
+  font-family: 'roboto';
+  color: #475569;
+  font-weight: bold;
+  text-align: center;
+}
+
+.image {
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .image {
+    width: 370px;
+  }
+
+  .list-items {
+    width: 370px;
+    height: 260px;
+  }
+}

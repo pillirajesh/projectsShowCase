@@ -1,0 +1,91 @@
+.home-container {
+  background-color: #f1f5f9;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.logo {
+  width: 120px;
+  height: auto;
+}
+
+.header-container {
+  background-color: #cbd5e1;
+  height: auto;
+  padding: 20px;
+  width: 100%;
+}
+
+.select {
+  width: 300px;
+  border-radius: 5px;
+  height: 40px;
+  margin-top: 50px;
+  margin-left: 20px;
+  font-family: 'roboto';
+  font-size: 13px;
+  outline: none;
+  padding: 10px;
+}
+
+.unordered-list-container {
+  padding-left: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 767px) {
+  .unordered-list-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.failed-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failed-image {
+  width: 400px;
+  height: 400px;
+}
+
+.failed-heading {
+  font-family: 'roboto';
+  font-weight: bold;
+  color: #475569;
+  font-size: 30px;
+}
+
+.failed-paragraph {
+  font-family: 'roboto';
+  font-weight: 600;
+  color: #475569;
+  font-size: 20px;
+}
+
+.retry-button {
+  background-color: #328af2;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+  width: 80px;
+  height: 40px;
+  font-family: 'roboto';
+  color: #f1f5f9;
+}
